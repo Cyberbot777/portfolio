@@ -39,7 +39,7 @@ const Projects = () => {
           key={index}
           className="mb-3"
           style={{
-            background: hoveredCard === index ? 'rgba(0, 50, 200, 0.9)' : 'rgba(0, 100, 255, 0.7)',
+            background: hoveredCard === index ? 'rgba(0, 100, 255, 0.75)' : 'rgba(0, 100, 255, 0.7)',
             color: '#000000',
             transform: hoveredCard === index ? 'scale(1.05)' : 'scale(1)',
             transition: 'all 0.3s ease-in-out',

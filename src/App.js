@@ -7,13 +7,22 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 
 const App = () => (
-  <div style={{ background: '#1E1E1E', color: '#FFFFFF', minHeight: '100vh' }}>
-    <Container>
+  <div
+    style={{
+      background: '#E6F0FA',
+      color: '#000000',
+      minHeight: '100vh',
+      display: 'flex',
+      flexDirection: 'column',
+    }}
+  >
+    <Container style={{ flex: '1 0 auto' }}>
       <Header />
       <About />
       <Projects />
       <Contact />
     </Container>
+    <footer style={{ background: '#E6F0FA', textAlign: 'center', padding: '1rem 0' }} />
   </div>
 );
 

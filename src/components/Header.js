@@ -12,7 +12,7 @@ const Header = () => (
     }}
   >
     <h1 style={{ fontWeight: 'bold', fontSize: '3rem' }}>Richard Hall</h1>
-    <p style={{ fontSize: '1.5rem', color: '#000000' }}>Full-Stack Developer in Training</p>
+    <p style={{ fontSize: '1.5rem', color: '#000000' }}>Full Stack Developer</p>
   </Container>
 );
 

@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap';
 
 const Header = () => (
   <Container
-    className="text-center py-4 mb-4"
+    className="text-center py-4 mb-4 mt-4"
     style={{
       background: 'rgba(0, 100, 255, 0.7)',
       color: '#000000',

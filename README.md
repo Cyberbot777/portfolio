@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**View Live Demo: [https://portfolio-sigma-pearl-36.vercel.app/](https://portfolio-sigma-pearl-36.vercel.app/)**
 
-## Available Scripts
+## Overview
+`Portfolio` is a single-page web application showcasing my skills and projects as a Full Stack Developer. Built with React and React Bootstrap, it features a clean, modern design with a light grey-blue background and semi-transparent blue accents, deployed on Vercel.
 
-In the project directory, you can run:
+## Features
+- **Header Section:** Displays my name and title as a Full Stack Developer with a semi-transparent blue background.
+- **About Section:** Highlights my background as a veteran, ER nurse, and Bachelor of Science in Nursing, transitioning to tech with skills in Python, React, and JavaScript.
+- **Projects Section:** Showcases three projects (Student Searcher, Instagram Photo Feed Clone, As The Crow Flies) with descriptions, tech stacks, and links to GitHub and live demos, styled in semi-transparent blue cards with hover effects.
+- **Contact Section:** Provides a link to my GitHub profile for easy contact.
+- **Responsive Design:** Built with React Bootstrap for a mobile-friendly layout, ensuring accessibility across devices.
+- **Consistent UI:** Uses a light grey-blue background (`#E6F0FA`), semi-transparent blue (`rgba(0, 100, 255, 0.7)`) for header and project cards, and black text for readability.
 
-### `npm start`
+## Technologies
+- **Frontend**:
+  - **React**: JavaScript library for building the user interface.
+  - **React Bootstrap**: Provides responsive styling and components.
+  - **Bootstrap**: CSS framework for consistent design.
+- **Deployment**:
+  - **Vercel**: Hosts the React frontend at `https://portfolio-sigma-pearl-36.vercel.app/`.
+  - **GitHub**: Version control and source code hosting.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage Instructions
+1. **Access the Web App**:
+   - Visit **View Live Demo: [https://portfolio-sigma-pearl-36.vercel.app/](https://portfolio-sigma-pearl-36.vercel.app/)** in a browser.
+   - Scroll through sections to view my background, projects, and contact information.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Interact with Features**:
+   - **Projects**: Hover over project cards to see a darker blue effect and scale animation.
+   - **Contact**: Click the GitHub link to visit my profile.
 
-### `npm test`
+3. **Development Setup (Optional)**:
+   - Clone the repository: `git clone https://github.com/Cyberbot777/portfolio.git`
+   - Navigate to the project: `cd portfolio`
+   - Install dependencies: `npm install`
+   - Run locally: `npm start`
+   - Access locally: `http://localhost:3000`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Skills Demonstrated
+- Front-end development with React
+- Responsive design with React Bootstrap
+- State management with React (`useState` for hover effects)
+- Deployment with Vercel
+- Version control with Git and GitHub
 
-### `npm run build`
+## Author
+- Richard Hall
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Date
+- Created: May 22, 2025
+- Last Updated: May 22, 2025

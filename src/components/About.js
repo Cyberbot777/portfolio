@@ -1,13 +1,19 @@
-
+// src/components/About.js
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Card } from 'react-bootstrap';
+import './About.css'; // NEW: Add CSS file for gradient and animation
 
 const About = () => (
   <Container className="text-center my-4">
-    <h2>About Me</h2>
-    <p>
-      Veteran and ER nurse with a Bachelor of Science in Nursing, transitioning to tech. Skilled in Python, React, and JavaScript.
-    </p>
+    <Card className="about-card"> {/* CHANGED: Wrap in Card for gradient */}
+      <Card.Body>
+        <h2>About Me</h2>
+        <p>
+          {/* CHANGED: Updated text to match LinkedIn */}
+          Veteran, business owner and ER nurse with a Bachelor of Science Degree, transitioning to tech. Skilled in Python, MongoDB, React, and JavaScript.
+        </p>
+      </Card.Body>
+    </Card>
   </Container>
 );
 

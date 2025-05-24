@@ -1,0 +1,11 @@
+/* Styles for gradient card and fade-in animation */
+.about-card {
+  background: linear-gradient(45deg, #e0c3fc, #8ec5fc); /* Purple-to-blue gradient */
+  border: none;
+  border-radius: 10px;
+  animation: fadeIn 1s ease-out;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}

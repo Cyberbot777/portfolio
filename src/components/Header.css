@@ -1,0 +1,20 @@
+/* src/components/Header.css */
+/* Reverted: Exact master version before centering attempts */
+.header-container {
+  background: linear-gradient(90deg, #4a90e2, #d8b2ff); /* Blue to purple */
+  animation: slideIn 0.8s ease-out;
+}
+.profile-pic {
+  border-radius: 50%; /* Oval shape */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow */
+  transition: transform 0.3s ease; /* Hover zoom */
+  object-fit: cover; /* Fit pic */
+  object-position: center; /* Center pic */
+}
+.profile-pic:hover {
+  transform: scale(1.1); /* Zoom */
+}
+@keyframes slideIn {
+  0% { transform: translateY(-50px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}

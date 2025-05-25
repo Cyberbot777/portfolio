@@ -17,8 +17,6 @@
 /* FEATURE: Project Card Hover */
 .project-card.card:hover {
   transform: scale(1.05);
-  border-color: #00BFFF !important;
-  box-shadow: 0 0 5px rgba(0, 191, 255, 0.5);
 }
 
 /* FEATURE: Card Title Styling */
@@ -35,13 +33,16 @@
   padding: 8px 16px;
   color: #ffffff !important;
   font-weight: bold;
+  height: 40px;
+  line-height: 1;
+  font-size: 1rem;
+  text-decoration: none !important;
   transition: all 0.3s ease;
 }
 
 /* FEATURE: Custom Button Hover */
 .project-card .custom-btn:hover {
-  transform: scale(1.05) translateY(-2px);
   background: #4a4a4a !important;
-  border-color: #00BFFF !important;
-  color: #00BFFF !important;
+  transform: scale(1.05);
+  text-decoration: none !important;
 }

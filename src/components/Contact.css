@@ -11,13 +11,16 @@
   padding: 8px 16px;
   color: #ffffff !important;
   font-weight: bold;
+  height: 40px;
+  line-height: 1;
+  font-size: 1rem; /* Match As The Crow Flies */
+  text-decoration: none !important; /* Remove underline */
   transition: all 0.3s ease;
 }
 
 /* FEATURE: Custom Button Hover */
 .text-center .custom-btn:hover {
-  transform: scale(1.05) translateY(-2px);
   background: #4a4a4a !important;
-  border-color: #00BFFF !important;
-  color: #00BFFF !important;
+  transform: scale(1.05);
+  text-decoration: none !important; /* Ensure no underline on hover */
 }

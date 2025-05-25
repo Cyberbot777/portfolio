@@ -1,10 +1,64 @@
-/* src/App.css */
-/* Updated: Global black text */
-.app-background {
-  background: #e0e0e0;
-  color: #000000; /* Changed: Global black text */
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  font-family: 'Roboto', sans-serif;
+/* FEATURE: Dark Theme */
+body {
+  background-image: url('./assets/crowBackground1.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #ffffff;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* FEATURE: Container Styling */
+.container {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+/* FEATURE: Header Styling */
+h1 {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+h2, h3, h4 {
+  color: #e0e0e0;
+}
+
+/* FEATURE: Text Styling */
+p {
+  color: #cccccc;
+}
+
+/* FEATURE: Link Styling */
+a {
+  color: #00BFFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* FEATURE: Button Styling */
+.btn {
+  background-color: #1a1a1a;
+  border-color: #4a4a4a;
+  color: #ffffff;
+  transition: transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #4a4a4a;
+  transform: scale(1.05);
+}
+
+/* FEATURE: Section Styling */
+.section {
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 8px;
 }

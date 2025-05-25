@@ -5,10 +5,7 @@ import profilePic from '../assets/profile-pic.jpg';
 import './Header.css';
 
 const Header = () => (
-  <Container
-    className="py-4 mb-4 mt-4 header-container"
-    style={{ color: '#000000', borderRadius: '8px' }}
-  >
+  <Container className="py-4 mb-4 mt-4 header-container">
     <Row className="align-items-center">
       <Col xs={4} className="text-center">
         <img
@@ -20,8 +17,8 @@ const Header = () => (
       </Col>
       <Col xs={8}>
         <h1 style={{ fontWeight: 'bold', fontSize: '3rem' }}>Richard Hall</h1>
-        <div className="text-left" style={{ paddingLeft: '45px' }}> 
-          <h2 style={{ fontSize: '1.5rem', color: '#000000' }}>Full Stack Developer</h2>
+        <div className="text-left" style={{ paddingLeft: '45px' }}>
+          <h2 style={{ fontSize: '1.5rem' }}>Full Stack Developer</h2>
         </div>
       </Col>
     </Row>

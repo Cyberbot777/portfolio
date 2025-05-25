@@ -11,7 +11,7 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'As The Crow Flies', /* Changed: Moved to top */
+      title: 'As The Crow Flies',
       description: 'Full-stack app calculating straight-line distances between locations with a crow-themed dark UI, interactive map, and crow animation. Uses Flask and React with geopy.',
       tech: 'Python, Flask, React, Leaflet, geopy, Bootstrap, Vercel, Render',
       github: 'https://github.com/Cyberbot777/As-The-Crow-Flies',

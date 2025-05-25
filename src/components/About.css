@@ -1,10 +1,15 @@
-/* src/components/About.css */
-/* Updated: Black text with override */
+/* FEATURE: About Section Styling */
 .about-section {
   animation: fadeIn 1s ease-out;
-  color: #000000 !important; /* Changed: Black text with override */
+  color: #ffffff; /* White text */
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  border: 2px solid #1a1a1a; /* Added: Dark border */
 }
+
+/* FEATURE: Fade-In Animation */
 @keyframes fadeIn {
   0% { opacity: 0; transform: translateY(20px); }
-  100% { opacity: 1; transform: translateY(0); }
+  100% { transform: translateY(0); }
 }

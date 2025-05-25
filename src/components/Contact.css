@@ -1,17 +1,23 @@
-/* src/components/Contact.css */
-/* Updated: Buttons match body background */
+/* FEATURE: Contact Container Styling */
 .text-center {
-  color: #000000;
+  color: #ffffff;
 }
-.custom-btn {
-  background: #e0e0e0 !important; /* Changed: Matches body background */
-  border: none !important;
+
+/* FEATURE: Custom Button Styling */
+.text-center .custom-btn {
+  background: #1a1a1a !important;
+  border: 2px solid #4a4a4a !important;
   border-radius: 20px;
   padding: 8px 16px;
-  color: #000000 !important;
+  color: #ffffff !important;
   font-weight: bold;
   transition: all 0.3s ease;
 }
-.custom-btn:hover {
+
+/* FEATURE: Custom Button Hover */
+.text-center .custom-btn:hover {
   transform: scale(1.05) translateY(-2px);
+  background: #4a4a4a !important;
+  border-color: #00BFFF !important;
+  color: #00BFFF !important;
 }

@@ -6,8 +6,8 @@ import profilePic from '../assets/profile-pic.jpg';
 
 const About = () => (
   <Container className="text-center my-4 about-section">
-    <Row style={{ width: "1000px" }}>
-      <Col style={{ marginLeft: "120px", alignItems: "center" }} sm={7}>
+    <Row>
+      <Col style={{ marginLeft: "60px", alignItems: "center" }} sm={7}>
         <h2>About Me</h2>
         <p>
           Veteran, business owner and ER nurse with a Bachelor of Science Degree, transitioning to tech. Skilled in Python, MongoDB, React, and JavaScript.

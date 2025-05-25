@@ -49,3 +49,59 @@
   transform: scale(1.05);
   text-decoration: none !important;
 }
+
+/* Media Query for Mobile (max-width: 576px) */
+@media (max-width: 576px) {
+  .project-card.card {
+    max-width: 300px;
+    height: 400px;
+  }
+
+  .project-card .card-title {
+    font-size: 1.25rem;
+  }
+
+  .project-card .card-text {
+    font-size: 0.9rem;
+  }
+
+  .project-card .custom-btn {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+    height: 36px;
+    display: inline-block; 
+    margin: 5px; 
+  }
+
+  .project-card .mt-auto {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+  }
+}
+
+/* Media Query for Tablet (max-width: 768px) */
+@media (max-width: 768px) {
+  .project-card.card {
+    max-width: 320px;
+    height: 420px;
+  }
+
+  .project-card .card-title {
+    font-size: 1.5rem;
+  }
+
+  .project-card .card-text {
+    font-size: 1rem;
+  }
+
+  .project-card .custom-btn {
+    margin: 5px; 
+  }
+
+  .project-card .mt-auto {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+  }
+}

@@ -31,3 +31,35 @@
   0% { transform: translateY(-50px); opacity: 0; }
   100% { transform: translateY(0); opacity: 1; }
 }
+
+/* Media Query for Mobile (max-width: 576px) */
+@media (max-width: 576px) {
+  .header-container {
+    padding: 15px;
+    min-height: 120px;
+  }
+
+  .header-text-centered h1 {
+    font-size: 2rem; 
+  }
+
+  .header-text-centered h2 {
+    font-size: 1.25rem;
+  }
+}
+
+/* Media Query for Tablet (max-width: 768px) */
+@media (max-width: 768px) {
+  .header-container {
+    padding: 15px;
+    min-height: 130px;
+  }
+
+  .header-text-centered h1 {
+    font-size: 2.5rem; 
+  }
+
+  .header-text-centered h2 {
+    font-size: 1.5rem; 
+  }
+}

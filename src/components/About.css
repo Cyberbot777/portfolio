@@ -10,7 +10,7 @@
 
 /* FEATURE: Override Margin for About Section */
 .text-center.my-4.about-section {
-  margin-top: 60px !important; /* Override Bootstrap my-4 to increase space above About Me */
+  margin-top: 65px !important;
 }
 
 /* FEATURE: Profile Picture Styling */
@@ -30,4 +30,80 @@
 @keyframes fadeIn {
   0% { opacity: 0; transform: translateY(20px); }
   100% { transform: translateY(0); }
+}
+
+/* Media Query for Mobile (max-width: 576px) */
+@media (max-width: 576px) {
+  .about-section {
+    padding: 15px;
+  }
+
+  .about-section .row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .about-section .col-sm-7 {
+    margin-left: 0 !important;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .about-section .col {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .about-section .profile-pic {
+    width: 120px;
+    height: 140px;
+    margin-top: 0;
+  }
+}
+
+/* Media Query for Tablet (max-width: 768px) */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 15px;
+  }
+
+  .about-section .row {
+    width: 100%;
+  }
+
+  .about-section .col-sm-7 {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .about-section .profile-pic {
+    width: 130px;
+    height: 150px;
+    margin-top: 0;
+  }
+}
+
+/* Media Query for 1000px and Below */
+@media (max-width: 1000px) {
+  .about-section .row {
+    width: 100%;
+  }
+
+  .about-section .col-sm-7 {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .about-section .profile-pic {
+    width: 140px;
+    height: 160px;
+    margin-top: 0;
+  }
 }

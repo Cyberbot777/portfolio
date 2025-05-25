@@ -12,21 +12,21 @@ const Projects = () => {
   const projects = [
     {
       title: 'As The Crow Flies',
-      description: 'Full-stack app calculating straight-line distances between locations with a crow-themed dark UI, interactive map, and crow animation. Uses Flask and React with geopy.',
+      description: 'Full-stack app to calculate straight-line distances between locations, with a crow-themed dark UI, Leaflet-powered interactive map, and crow animation. Built with Flask (using geopy), React, and Bootstrap. Deployed on Vercel and Render.',
       tech: 'Python, Flask, React, Leaflet, geopy, Bootstrap, Vercel, Render',
       github: 'https://github.com/Cyberbot777/As-The-Crow-Flies',
       demo: 'https://as-the-crow-flies.vercel.app/',
     },
     {
       title: 'Student Searcher',
-      description: 'Full-stack app for managing student records with a Flask backend and React frontend. Features include searching, adding, editing, and analyzing student data, persisted on MongoDB data base.',
+      description: 'Full-stack app for managing student records, with features for searching, adding, editing, and filtering data. Built with a Flask backend, React frontend (using Axios), and MongoDB database. Deployed on Render and Vercel.',
       tech: 'Python, Flask, MongoDB, React, Axios, Render, Vercel',
       github: 'https://github.com/Cyberbot777/student-searcher',
       demo: 'https://student-searcher.vercel.app/',
     },
     {
-      title: 'Instagram Photo Feed Clone',
-      description: 'Simplified Instagram-like photo feed with toggleable grid/inline views, post creation/deletion, and a settings modal. Built with Bootstrap for responsive design.',
+      title: 'Instagram Photo Feed',
+      description: 'Frontend app mimicking Instagram’s photo feed, with toggleable grid/inline views, post creation/deletion, and a settings modal. Built with JavaScript for interactivity and Bootstrap for responsive design. Deployed on Vercel.',
       tech: 'HTML, CSS, JavaScript, Bootstrap, Vercel',
       github: 'https://github.com/Cyberbot777/instagram-photo-feed',
       demo: 'https://instagram-photo-feed-nine.vercel.app/',

@@ -1,7 +1,7 @@
 // src/components/Projects.js
 import React, { useState } from 'react';
-import { Card, Container, Button } from 'react-bootstrap'; // Changed: Added Button
-import './Projects.css'; // Added: Link to new CSS
+import { Card, Container, Button } from 'react-bootstrap';
+import './Projects.css';
 
 const Projects = () => {
   const [hoveredCard, setHoveredCard] = useState(null);
@@ -10,6 +10,13 @@ const Projects = () => {
   const handleMouseLeave = () => setHoveredCard(null);
 
   const projects = [
+    {
+      title: 'As The Crow Flies', /* Changed: Moved to top */
+      description: 'Full-stack app calculating straight-line distances between locations with a crow-themed dark UI, interactive map, and crow animation. Uses Flask and React with geopy.',
+      tech: 'Python, Flask, React, Leaflet, geopy, Bootstrap, Vercel, Render',
+      github: 'https://github.com/Cyberbot777/As-The-Crow-Flies',
+      demo: 'https://as-the-crow-flies.vercel.app/',
+    },
     {
       title: 'Student Searcher',
       description: 'Full-stack app for managing student records with a Flask backend and React frontend. Features include searching, adding, editing, and analyzing student data, persisted in a text file.',
@@ -24,13 +31,6 @@ const Projects = () => {
       github: 'https://github.com/Cyberbot777/instagram-photo-feed',
       demo: 'https://instagram-photo-feed-nine.vercel.app/',
     },
-    {
-      title: 'As The Crow Flies',
-      description: 'Full-stack app calculating straight-line distances between locations with a crow-themed dark UI, interactive map, and crow animation. Uses Flask and React with geopy.',
-      tech: 'Python, Flask, React, Leaflet, geopy, Bootstrap, Vercel, Render',
-      github: 'https://github.com/Cyberbot777/As-The-Crow-Flies',
-      demo: 'https://as-the-crow-flies.vercel.app/',
-    },
   ];
 
   return (
@@ -39,7 +39,7 @@ const Projects = () => {
       {projects.map((project, index) => (
         <Card
           key={index}
-          className="mb-3 project-card" // Changed: Added class for styling
+          className="mb-3 project-card"
           onMouseEnter={() => handleMouseEnter(index)}
           onMouseLeave={handleMouseLeave}
         >
@@ -47,8 +47,8 @@ const Projects = () => {
             <Card.Title>{project.title}</Card.Title>
             <Card.Text>{project.description}</Card.Text>
             <Card.Text>Tech: {project.tech}</Card.Text>
-            <Button className="custom-btn mx-2" href={project.github}>GitHub</Button> {/* Changed: Button instead of Card.Link */}
-            <Button className="custom-btn mx-2" href={project.demo}>Demo</Button> {/* Changed: Button instead of Card.Link */}
+            <Button className="custom-btn mx-2" href={project.github}>GitHub</Button>
+            <Button className="custom-btn mx-2" href={project.demo}>Demo</Button>
           </Card.Body>
         </Card>
       ))}

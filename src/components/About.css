@@ -1,7 +1,8 @@
 /* src/components/About.css */
-/* Updated: Only fade-in, no background */
+/* Updated: Black text with override */
 .about-section {
   animation: fadeIn 1s ease-out;
+  color: #000000 !important; /* Changed: Black text with override */
 }
 @keyframes fadeIn {
   0% { opacity: 0; transform: translateY(20px); }

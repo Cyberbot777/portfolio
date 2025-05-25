@@ -1,27 +1,33 @@
 /* src/components/Projects.css */
-/* Updated: Translucent project cards */
+/* Updated: No border, added shadow effect */
+.my-4 {
+  color: #000000 !important;
+}
 .project-card {
-  background: rgba(126, 155, 248, 0.8) !important; /* Changed: Translucent blue-purple */
-  color: #000000;
-  border: 1px solid #000000 !important;
+  background: #f5f5f7 !important;
+  color: #000000 !important;
   transform: scale(1);
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
+  border: none !important; /* Confirm: No border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added: Subtle shadow for depth */
 }
 .project-card:hover {
   transform: scale(1.05);
 }
+.project-card .card-title {
+  font-family: 'Roboto', sans-serif;
+  color: #000000 !important;
+}
 .custom-btn {
-  background: linear-gradient(90deg, #4a90e2, #d8b2ff);
-  border: none;
+  background: #e0e0e0 !important;
+  border: none !important;
   border-radius: 20px;
   padding: 8px 16px;
   color: #000000 !important;
   font-weight: bold;
   transition: all 0.3s ease;
-  box-shadow: 0 0 10px rgba(0, 221, 235, 0.5);
 }
 .custom-btn:hover {
-  box-shadow: 0 0 20px rgba(0, 221, 235, 0.8);
-  transform: translateY(-2px);
+  transform: scale(1.05) translateY(-2px);
 }

@@ -20,7 +20,7 @@ const Header = () => (
       </Col>
       <Col xs={8}>
         <h1 style={{ fontWeight: 'bold', fontSize: '3rem' }}>Richard Hall</h1>
-        <div className="text-left" style={{ paddingLeft: '45px' }}> {}
+        <div className="text-left" style={{ paddingLeft: '45px' }}> 
           <h2 style={{ fontSize: '1.5rem', color: '#000000' }}>Full Stack Developer</h2>
         </div>
       </Col>

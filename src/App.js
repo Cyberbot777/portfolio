@@ -1,28 +1,21 @@
-
+// src/App.js
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import './App.css'; // Added: Link to new CSS
 
 const App = () => (
-  <div
-    style={{
-      background: '#E6F0FA',
-      color: '#000000',
-      minHeight: '100vh',
-      display: 'flex',
-      flexDirection: 'column',
-    }}
-  >
+  <div className="app-background"> {/* Changed: Added class for moving gradient */}
     <Container style={{ flex: '1 0 auto' }}>
       <Header />
       <About />
       <Projects />
       <Contact />
     </Container>
-    <footer style={{ background: '#E6F0FA', textAlign: 'center', padding: '1rem 0' }} />
+    <footer style={{ textAlign: 'center', padding: '1rem 0' }} /> {/* Changed: Removed background */}
   </div>
 );
 

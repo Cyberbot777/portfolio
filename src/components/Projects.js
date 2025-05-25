@@ -1,5 +1,7 @@
+// src/components/Projects.js
 import React, { useState } from 'react';
-import { Card, Container } from 'react-bootstrap';
+import { Card, Container, Button } from 'react-bootstrap'; // Changed: Added Button
+import './Projects.css'; // Added: Link to new CSS
 
 const Projects = () => {
   const [hoveredCard, setHoveredCard] = useState(null);
@@ -37,14 +39,7 @@ const Projects = () => {
       {projects.map((project, index) => (
         <Card
           key={index}
-          className="mb-3"
-          style={{
-            background: hoveredCard === index ? 'rgba(0, 100, 255, 0.75)' : 'rgba(0, 100, 255, 0.7)',
-            color: '#000000',
-            transform: hoveredCard === index ? 'scale(1.05)' : 'scale(1)',
-            transition: 'all 0.3s ease-in-out',
-            cursor: 'pointer',
-          }}
+          className="mb-3 project-card" // Changed: Added class for styling
           onMouseEnter={() => handleMouseEnter(index)}
           onMouseLeave={handleMouseLeave}
         >
@@ -52,8 +47,8 @@ const Projects = () => {
             <Card.Title>{project.title}</Card.Title>
             <Card.Text>{project.description}</Card.Text>
             <Card.Text>Tech: {project.tech}</Card.Text>
-            <Card.Link href={project.github} style={{ color: '#000000' }}>GitHub</Card.Link>
-            <Card.Link href={project.demo} style={{ color: '#000000' }}>Demo</Card.Link>
+            <Button className="custom-btn mx-2" href={project.github}>GitHub</Button> {/* Changed: Button instead of Card.Link */}
+            <Button className="custom-btn mx-2" href={project.demo}>Demo</Button> {/* Changed: Button instead of Card.Link */}
           </Card.Body>
         </Card>
       ))}

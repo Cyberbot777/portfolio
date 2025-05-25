@@ -1,0 +1,16 @@
+/* src/App.css */
+/* New: Moving gradient background */
+.app-background {
+  background: linear-gradient(90deg, #4a90e2, #d8b2ff, #4a90e2); /* Matches Header gradient */
+  background-size: 200% 200%;
+  animation: gradientShift 15s ease infinite;
+  color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}

@@ -1,18 +1,19 @@
 /* src/components/Header.css */
-/* Reverted: Exact master version before centering attempts */
+/* Updated: Added subtle black border */
 .header-container {
-  background: linear-gradient(90deg, #4a90e2, #d8b2ff); /* Blue to purple */
+  background: linear-gradient(90deg, #4a90e2, #d8b2ff);
   animation: slideIn 0.8s ease-out;
+  border: 1px solid #000000 !important; /* Added: Same subtle border as project cards */
 }
 .profile-pic {
-  border-radius: 50%; /* Oval shape */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow */
-  transition: transform 0.3s ease; /* Hover zoom */
-  object-fit: cover; /* Fit pic */
-  object-position: center; /* Center pic */
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  object-fit: cover;
+  object-position: center;
 }
 .profile-pic:hover {
-  transform: scale(1.1); /* Zoom */
+  transform: scale(1.1);
 }
 @keyframes slideIn {
   0% { transform: translateY(-50px); opacity: 0; }

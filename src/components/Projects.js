@@ -1,6 +1,6 @@
 // src/components/Projects.js
 import React, { useState } from 'react';
-import { Card, Container, Button } from 'react-bootstrap';
+import { Card, Container, Button, Row, Col } from 'react-bootstrap';
 import './Projects.css';
 
 const Projects = () => {
@@ -35,23 +35,33 @@ const Projects = () => {
 
   return (
     <Container className="my-4">
-      <h2>Projects</h2>
-      {projects.map((project, index) => (
-        <Card
-          key={index}
-          className="mb-3 project-card"
-          onMouseEnter={() => handleMouseEnter(index)}
-          onMouseLeave={handleMouseLeave}
-        >
-          <Card.Body>
-            <Card.Title>{project.title}</Card.Title>
-            <Card.Text>{project.description}</Card.Text>
-            <Card.Text>Tech: {project.tech}</Card.Text>
-            <Button className="custom-btn mx-2" href={project.github}>GitHub</Button>
-            <Button className="custom-btn mx-2" href={project.demo}>Demo</Button>
-          </Card.Body>
-        </Card>
-      ))}
+      <h2 className='text-center'>Projects</h2>
+      <Row>
+        {projects.map((project, index) => {
+          return (
+            <Col>
+              <Card
+                key={index}
+                className="mb-3 project-card"
+                onMouseEnter={() => handleMouseEnter(index)}
+                onMouseLeave={handleMouseLeave}
+              >
+                <Card.Body className='text-center'>
+                  <Card.Title>{project.title}</Card.Title>
+                  <Card.Text>{project.description}</Card.Text>
+                  <Card.Text style={project.title === "Instagram Photo Feed Clone" ? { marginTop: "55px" } : {}}>Tech: {project.tech}</Card.Text>
+                  <Row className='text-center'>
+                    <Col>
+                      <Button className="custom-btn mx-2" href={project.github}>GitHub</Button>
+                      <Button className="custom-btn mx-2" href={project.demo}>Demo</Button>
+                    </Col>
+                  </Row>
+                </Card.Body>
+              </Card>
+            </Col>
+          )
+        })}
+      </Row>
     </Container>
   );
 };

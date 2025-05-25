@@ -1,6 +1,6 @@
 /* FEATURE: Header Container Styling */
 .header-container {
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.7);
   animation: slideIn 0.8s ease-out;
   border: none;
   border-radius: 10px;
@@ -29,8 +29,7 @@
 /* FEATURE: Centered Header Text */
 .header-text-centered {
   flex: 1; /* Allow text to take remaining space */
-  text-align: center; /* Center text within its container */
-  margin-right: 290px; /* Move text independently to the right */
+  text-align: center; /* Center text within its container */ /* Move text independently to the right */
 }
 
 /* FEATURE: Profile Picture Styling */

@@ -1,33 +1,22 @@
 /* FEATURE: Header Container Styling */
 .header-container {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.65);
   animation: slideIn 0.8s ease-out;
-  border: 2px solid #1a1a1a;
+  border: none;
   border-radius: 10px;
   padding: 20px;
 }
 
-/* FEATURE: Header Content Layout */
-.header-content {
-  display: flex;
-  align-items: center;
-  gap: 10px; /* Adjusted spacing between picture and text */
-  justify-content: center;
+/* FEATURE: Picture Container Styling */
+.pic-container {
+  border-radius: 10px;
+  background: transparent !important; /* Override any Bootstrap background */
 }
 
 /* FEATURE: Header Text Styling */
-.header-text h1 {
+.header-container h1, .header-container h2 {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
-  font-weight: bold;
-  font-size: 3rem;
-  margin-bottom: 5px;
-}
-
-.header-text h2 {
-  font-family: 'Roboto', sans-serif;
-  color: #ffffff;
-  font-size: 1.5rem;
 }
 
 /* FEATURE: Profile Picture Styling */
@@ -36,7 +25,6 @@
   transition: transform 0.3s ease;
   object-fit: cover;
   object-position: center;
-  border: 2px solid #1a1a1a;
 }
 
 /* FEATURE: Profile Picture Hover */

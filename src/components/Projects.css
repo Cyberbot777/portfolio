@@ -5,12 +5,12 @@
 
 /* FEATURE: Project Card Styling */
 .project-card.card {
-  background: rgba(0, 0, 0, 0.5) !important; /* Lighter translucent black */
+  background: rgba(0, 0, 0, 0.65) !important;
   color: #ffffff !important;
   transform: scale(1);
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
-  border: 2px solid #1a1a1a !important;
+  border: none !important; /* Remove border */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -28,7 +28,7 @@
 /* FEATURE: Custom Button Styling */
 .project-card .custom-btn {
   background: #1a1a1a !important;
-  border: 2px solid #4a4a4a !important;
+  border: 1px solid #4a4a4a !important;
   border-radius: 20px;
   padding: 8px 16px;
   color: #ffffff !important;

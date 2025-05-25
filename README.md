@@ -3,15 +3,15 @@
 **View Live Demo: [https://portfolio-sigma-pearl-36.vercel.app/](https://portfolio-sigma-pearl-36.vercel.app/)**
 
 ## Overview
-`Portfolio` is a single-page web application showcasing my skills and projects as a Full Stack Developer. Built with React and React Bootstrap, it features a clean, modern design with a light grey-blue background and semi-transparent blue accents, deployed on Vercel.
+`Portfolio` is a single-page web application showcasing my skills and projects as a Full Stack Developer. Built with React and React Bootstrap, it features a gothic design with a background image and semi-transparent black containers, deployed on Vercel for a seamless user experience across all devices.
 
 ## Features
-- **Header Section:** Displays my name and title as a Full Stack Developer with a semi-transparent blue background.
-- **About Section:** Highlights my background as a veteran, ER nurse, and Bachelor of Science in Nursing, transitioning to tech with skills in Python, React, and JavaScript.
-- **Projects Section:** Showcases three projects (Student Searcher, Instagram Photo Feed Clone, As The Crow Flies) with descriptions, tech stacks, and links to GitHub and live demos, styled in semi-transparent blue cards with hover effects.
-- **Contact Section:** Provides a link to my GitHub profile for easy contact.
-- **Responsive Design:** Built with React Bootstrap for a mobile-friendly layout, ensuring accessibility across devices.
-- **Consistent UI:** Uses a light grey-blue background (`#E6F0FA`), semi-transparent blue (`rgba(0, 100, 255, 0.7)`) for header and project cards, and black text for readability.
+- **Header Section:** Displays my name and title as a Full Stack Developer, centered within a semi-transparent black container.
+- **About Section:** Highlights my background as a veteran, ER nurse, and Bachelor of Science in Nursing, transitioning to tech with skills in Python, MongoDB, React, and JavaScript. Includes a centered profile picture on mobile.
+- **Projects Section:** Showcases three projects (As The Crow Flies, Student Searcher, Instagram Photo Feed Clone) with descriptions, tech stacks, and links to GitHub and live demos, styled in semi-transparent black cards with hover effects for scaling.
+- **Contact Section:** Provides links to my GitHub and LinkedIn profiles, with centered buttons on all screen sizes.
+- **Responsive Design:** Optimized with media queries for mobile, tablet, and desktop, ensuring a seamless layout with centered content on small screens.
+- **Consistent UI:** Uses a gothic background image, semi-transparent black containers, light gray text, and cyan links for readability and aesthetic consistency.
 
 ## Technologies
 - **Frontend**:
@@ -28,8 +28,8 @@
    - Scroll through sections to view my background, projects, and contact information.
 
 2. **Interact with Features**:
-   - **Projects**: Hover over project cards to see a darker blue effect and scale animation.
-   - **Contact**: Click the GitHub link to visit my profile.
+   - **Projects**: Hover over project cards to see a scale animation.
+   - **Contact**: Click the GitHub and LinkedIn buttons to visit my profiles.
 
 3. **Development Setup (Optional)**:
    - Clone the repository: `git clone https://github.com/Cyberbot777/portfolio.git`
@@ -40,14 +40,15 @@
 
 ## Skills Demonstrated
 - Front-end development with React
-- Responsive design with React Bootstrap
+- Responsive design with React Bootstrap and custom media queries
 - State management with React (`useState` for hover effects)
 - Deployment with Vercel
 - Version control with Git and GitHub
+- Debugging and optimization for mobile layouts
 
 ## Author
 - Richard Hall
 
 ## Date
 - Created: May 22, 2025
-- Last Updated: May 22, 2025
+- Last Updated: May 25, 2025

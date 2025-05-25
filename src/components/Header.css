@@ -1,9 +1,9 @@
 /* src/components/Header.css */
-/* Updated: Added subtle black border */
+/* Updated: Solid color for contrast */
 .header-container {
-  background: linear-gradient(90deg, #4a90e2, #d8b2ff);
+  background: #7e9bf8; /* Changed: Solid middle color from project hover gradient */
   animation: slideIn 0.8s ease-out;
-  border: 1px solid #000000 !important; /* Added: Same subtle border as project cards */
+  border: 1px solid #000000 !important;
 }
 .profile-pic {
   border-radius: 50%;

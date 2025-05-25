@@ -1,15 +1,14 @@
 /* src/components/Projects.css */
-/* Updated: Subtle border */
+/* Updated: Translucent project cards */
 .project-card {
-  background: linear-gradient(90deg, #4a90e2, #d8b2ff);
+  background: rgba(126, 155, 248, 0.8) !important; /* Changed: Translucent blue-purple */
   color: #000000;
-  border: 1px solid #000000 !important; /* Changed: Thinner border (1px) */
+  border: 1px solid #000000 !important;
   transform: scale(1);
-  transition: all 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
   cursor: pointer;
 }
 .project-card:hover {
-  background: linear-gradient(90deg, #3a7bd5, #c29bff);
   transform: scale(1.05);
 }
 .custom-btn {

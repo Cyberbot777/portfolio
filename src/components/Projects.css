@@ -69,14 +69,22 @@
     font-size: 0.9rem;
     padding: 6px 12px;
     height: 36px;
-    display: inline-block; 
-    margin: 5px; 
+    display: inline-block;
+    margin: 5px;
   }
 
   .project-card .mt-auto {
     display: flex;
-    justify-content: center; 
-    flex-wrap: wrap; 
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* Center project cards within their columns */
+  .d-flex.justify-content-center {
+    display: flex !important;
+    justify-content: center !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 }
 
@@ -96,12 +104,20 @@
   }
 
   .project-card .custom-btn {
-    margin: 5px; 
+    margin: 5px;
   }
 
   .project-card .mt-auto {
     display: flex;
-    justify-content: center; 
-    flex-wrap: wrap; 
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* Center project cards within their columns */
+  .d-flex.justify-content-center {
+    display: flex !important;
+    justify-content: center !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 }

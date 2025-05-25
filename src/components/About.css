@@ -1,11 +1,11 @@
 /* FEATURE: About Section Styling */
 .about-section {
   animation: fadeIn 1s ease-out;
-  color: #ffffff;
+  color: #e0e0e0; 
   background: rgba(0, 0, 0, 0.65);
   border-radius: 10px;
   padding: 20px;
-  border: none; /* Remove border */
+  border: none;
 }
 
 /* FEATURE: Fade-In Animation */

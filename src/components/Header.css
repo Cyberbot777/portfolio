@@ -13,10 +13,24 @@
   background: transparent !important; /* Override any Bootstrap background */
 }
 
+/* FEATURE: Header Content Layout */
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 45px; /* Restore original spacing between picture and text */
+}
+
 /* FEATURE: Header Text Styling */
 .header-container h1, .header-container h2 {
   font-family: 'Roboto', sans-serif;
-  color: #ffffff;
+  color: #e0e0e0; /* Change to light gray */
+}
+
+/* FEATURE: Centered Header Text */
+.header-text-centered {
+  flex: 1; /* Allow text to take remaining space */
+  text-align: center; /* Center text within its container */
+  margin-right: 290px; /* Move text independently to the right */
 }
 
 /* FEATURE: Profile Picture Styling */
@@ -25,6 +39,7 @@
   transition: transform 0.3s ease;
   object-fit: cover;
   object-position: center;
+  margin-left: 80px; /* Move picture independently to the right */
 }
 
 /* FEATURE: Profile Picture Hover */

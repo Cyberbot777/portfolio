@@ -20,7 +20,7 @@ const Projects = () => {
     {
       title: 'Student Searcher',
       description: 'Full-stack app for managing student records with a Flask backend and React frontend. Features include searching, adding, editing, and analyzing student data, persisted in a text file.',
-      tech: 'Python, Flask, React, Axios, Render, Vercel',
+      tech: 'Python, Flask, MongoDB, React, Axios, Render, Vercel',
       github: 'https://github.com/Cyberbot777/student-searcher',
       demo: 'https://student-searcher.vercel.app/',
     },

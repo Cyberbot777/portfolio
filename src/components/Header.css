@@ -5,45 +5,26 @@
   border: none;
   border-radius: 10px;
   padding: 20px;
-}
-
-/* FEATURE: Picture Container Styling */
-.pic-container {
-  border-radius: 10px;
-  background: transparent !important; /* Override any Bootstrap background */
+  min-height: 150px;
+  margin-bottom: 100px; /* Increase space below header */
 }
 
 /* FEATURE: Header Content Layout */
 .header-content {
   display: flex;
   align-items: center;
-  gap: 45px; /* Restore original spacing between picture and text */
+  justify-content: center;
 }
 
 /* FEATURE: Header Text Styling */
 .header-container h1, .header-container h2 {
   font-family: 'Roboto', sans-serif;
-  color: #e0e0e0; /* Change to light gray */
+  color: #e0e0e0;
 }
 
 /* FEATURE: Centered Header Text */
 .header-text-centered {
-  flex: 1; /* Allow text to take remaining space */
-  text-align: center; /* Center text within its container */ /* Move text independently to the right */
-}
-
-/* FEATURE: Profile Picture Styling */
-.profile-pic {
-  border-radius: 50%;
-  transition: transform 0.3s ease;
-  object-fit: cover;
-  object-position: center;
-  margin-left: 80px; /* Move picture independently to the right */
-}
-
-/* FEATURE: Profile Picture Hover */
-.profile-pic:hover {
-  transform: scale(1.1);
+  text-align: center;
 }
 
 /* FEATURE: Slide-In Animation */

@@ -49,8 +49,22 @@ const Projects = () => {
                 <Card.Text className="flex-grow-1">{project.description}</Card.Text>
                 <Card.Text>Tech: {project.tech}</Card.Text>
                 <div className="mt-auto">
-                  <Button className="custom-btn mx-2" href={project.github}>GitHub</Button>
-                  <Button className="custom-btn mx-2" href={project.demo}>Demo</Button>
+                  <Button
+                    className="custom-btn mx-2"
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub
+                  </Button>
+                  <Button
+                    className="custom-btn mx-2"
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Demo
+                  </Button>
                 </div>
               </Card.Body>
             </Card>

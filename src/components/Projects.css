@@ -5,7 +5,7 @@
 
 /* FEATURE: Project Card Styling */
 .project-card.card {
-  background: rgba(0, 0, 0, 0.9) !important;
+  background: rgba(0, 0, 0, 0.5) !important; /* Lighter translucent black */
   color: #ffffff !important;
   transform: scale(1);
   transition: transform 0.3s ease-in-out;

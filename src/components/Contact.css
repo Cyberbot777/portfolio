@@ -1,6 +1,10 @@
 /* FEATURE: Contact Container Styling */
 .text-center {
   color: #ffffff;
+  background: rgba(0, 0, 0, 0.5); /* Lighter translucent black */
+  border-radius: 10px;
+  padding: 20px;
+  border: 2px solid #1a1a1a;
 }
 
 /* FEATURE: Custom Button Styling */
@@ -13,8 +17,8 @@
   font-weight: bold;
   height: 40px;
   line-height: 1;
-  font-size: 1rem; /* Match As The Crow Flies */
-  text-decoration: none !important; /* Remove underline */
+  font-size: 1rem;
+  text-decoration: none !important;
   transition: all 0.3s ease;
 }
 
@@ -22,5 +26,5 @@
 .text-center .custom-btn:hover {
   background: #4a4a4a !important;
   transform: scale(1.05);
-  text-decoration: none !important; /* Ensure no underline on hover */
+  text-decoration: none !important;
 }

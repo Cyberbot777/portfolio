@@ -36,31 +36,26 @@ const Projects = () => {
   return (
     <Container className="my-4">
       <h2 className='text-center'>Projects</h2>
-      <Row>
-        {projects.map((project, index) => {
-          return (
-            <Col>
-              <Card
-                key={index}
-                className="mb-3 project-card"
-                onMouseEnter={() => handleMouseEnter(index)}
-                onMouseLeave={handleMouseLeave}
-              >
-                <Card.Body className='text-center'>
-                  <Card.Title>{project.title}</Card.Title>
-                  <Card.Text>{project.description}</Card.Text>
-                  <Card.Text style={project.title === "Instagram Photo Feed Clone" ? { marginTop: "55px" } : {}}>Tech: {project.tech}</Card.Text>
-                  <Row className='text-center'>
-                    <Col>
-                      <Button className="custom-btn mx-2" href={project.github}>GitHub</Button>
-                      <Button className="custom-btn mx-2" href={project.demo}>Demo</Button>
-                    </Col>
-                  </Row>
-                </Card.Body>
-              </Card>
-            </Col>
-          )
-        })}
+      <Row className="justify-content-center">
+        {projects.map((project, index) => (
+          <Col key={index} xs={12} sm={6} md={4} className="mb-4">
+            <Card
+              className="project-card h-100"
+              onMouseEnter={() => handleMouseEnter(index)}
+              onMouseLeave={handleMouseLeave}
+            >
+              <Card.Body className="text-center d-flex flex-column">
+                <Card.Title>{project.title}</Card.Title>
+                <Card.Text className="flex-grow-1">{project.description}</Card.Text>
+                <Card.Text>Tech: {project.tech}</Card.Text>
+                <div className="mt-auto">
+                  <Button className="custom-btn mx-2" href={project.github}>GitHub</Button>
+                  <Button className="custom-btn mx-2" href={project.demo}>Demo</Button>
+                </div>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
       </Row>
     </Container>
   );

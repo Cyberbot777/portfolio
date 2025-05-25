@@ -1,19 +1,20 @@
 /* FEATURE: Projects Container Styling */
 .my-4 {
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 /* FEATURE: Project Card Styling */
 .project-card.card {
   background: rgba(0, 0, 0, 0.7) !important;
-  color: #ffffff !important;
+  color: #e0e0e0 !important;
   transform: scale(1);
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
-  border: none !important; /* Remove border */
+  border: none !important;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  height: 445px;
-
+  width: 100%;
+  max-width: 350px;
+  height: 450px;
 }
 
 /* FEATURE: Project Card Hover */
@@ -24,7 +25,7 @@
 /* FEATURE: Card Title Styling */
 .project-card .card-title {
   font-family: 'Roboto', sans-serif;
-  color: #ffffff !important;
+  color: #e0e0e0 !important;
 }
 
 /* FEATURE: Custom Button Styling */

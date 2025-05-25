@@ -1,5 +1,5 @@
 /* FEATURE: Dark Theme */
-body {
+html, body {
   background-image: url('./assets/crowBackground1.jpg');
   background-size: cover;
   background-attachment: fixed;
@@ -7,16 +7,19 @@ body {
   color: #ffffff;
   margin: 0;
   font-family: Arial, sans-serif;
-  min-height: 100vh; 
+  min-height: 100vh;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 /* Ensure the app-background covers the full height */
 .app-background {
-  min-height: 100vh; 
+  min-height: 100vh;
   background-image: url('./assets/crowBackground1.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+  height: 100%;
 }
 
 /* FEATURE: Container Styling */

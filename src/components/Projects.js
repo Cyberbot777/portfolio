@@ -1,4 +1,5 @@
-// src/components/Projects.js
+"use client";
+
 import React, { useState } from 'react';
 import { Card, Container, Button, Row, Col } from 'react-bootstrap';
 import './Projects.css';

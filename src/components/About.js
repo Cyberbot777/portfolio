@@ -1,8 +1,6 @@
-// src/components/About.js
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './About.css';
-import profilePic from '../assets/profile-pic.jpg';
 
 const About = () => (
   <Container className="text-center my-4 about-section">
@@ -15,7 +13,7 @@ const About = () => (
       </Col>
       <Col>
         <img
-          src={profilePic}
+          src="/profile-pic.jpg"
           alt="Richard Hall"
           className="profile-pic"
           style={{ width: '150px', height: '170px', marginTop: "10px" }}

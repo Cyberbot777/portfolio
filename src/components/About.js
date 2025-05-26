@@ -1,5 +1,10 @@
+/* Import React for component rendering */
 import React from 'react';
+/* Import Bootstrap components */
 import { Container, Row, Col } from 'react-bootstrap';
+/* Import Next.js Image for optimized image loading */
+import Image from 'next/image';
+/* Import custom CSS */
 import './About.css';
 
 const About = () => (
@@ -12,11 +17,13 @@ const About = () => (
         </p>
       </Col>
       <Col>
-        <img
+        <Image
           src="/profile-pic.jpg"
           alt="Richard Hall"
           className="profile-pic"
-          style={{ width: '150px', height: '170px', marginTop: "10px" }}
+          width={150}
+          height={170}
+          style={{ marginTop: "10px" }} /* Match original inline styles */
         />
       </Col>
     </Row>

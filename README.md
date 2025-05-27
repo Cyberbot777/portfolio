@@ -1,6 +1,6 @@
 # Portfolio
 
-**View Live Demo: [To be updated after deploying Next.js project]**
+**View Live Demo: (https://portfolio-yhy4.vercel.app)
 
 ## Overview
 `Portfolio` is a single-page web application showcasing my skills and projects as a Full Stack Developer. Built with React, Next.js, and React Bootstrap, it features a gothic design with a background image and semi-transparent black containers, deployed on Vercel for a seamless, optimized user experience across all devices with static site generation (SSG).
@@ -42,7 +42,7 @@ The migration preserved all functionality and visuals, improving load performanc
 
 ## Usage Instructions
 1. **Access the Web App**:
-   - Visit the live demo (update URL after deploying the Next.js version).
+   - Visit the live demo (https://portfolio-yhy4.vercel.app).
    - Scroll through sections to view my background, projects, and contact information.
 2. **Interact with Features**:
    - **Projects**: Hover over project cards to see a scale animation.

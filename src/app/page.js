@@ -1,3 +1,7 @@
+"use client"; // Enable client-side rendering for mount check
+
+/* Import React hooks */
+import { useState, useEffect } from 'react';
 /* Import Bootstrap components */
 import { Container } from 'react-bootstrap';
 /* Import Bootstrap CSS */
@@ -11,6 +15,16 @@ import Projects from '../components/Projects';
 import Contact from '../components/Contact';
 
 export default function Home() {
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) {
+    return null; // Prevent render until client mounts
+  }
+
   return (
     <div
       className="app-background"

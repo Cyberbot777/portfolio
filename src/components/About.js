@@ -1,5 +1,3 @@
-"use client"; // Enable client-side rendering for animation
-
 /* Import React for component rendering */
 import React from 'react';
 /* Import Bootstrap components */

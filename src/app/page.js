@@ -1,4 +1,4 @@
-"use client"; // Enable client-side rendering for mount check
+"use client";
 
 /* Import React hooks */
 import { useState, useEffect } from 'react';
@@ -22,7 +22,7 @@ export default function Home() {
   }, []);
 
   if (!isMounted) {
-    return null; // Prevent render until client mounts
+    return null;
   }
 
   return (
@@ -31,11 +31,11 @@ export default function Home() {
       style={{
         minHeight: '100vh',
         height: '100%',
-        backgroundImage: 'url(/crowBackground1.jpg)', /* Inline background to match App.css and prevent FOUC */
+        backgroundImage: 'url(/crowBackground1.jpg?v=1)', /* Cache-busting query */
         backgroundSize: 'cover',
         backgroundAttachment: 'fixed',
         backgroundPosition: 'center',
-        color: '#ffffff', /* Match App.css text color */
+        color: '#ffffff',
       }}
     >
       <Container style={{ flex: '1 0 auto' }}>

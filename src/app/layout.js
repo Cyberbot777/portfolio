@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <html
       lang="en"
       style={{
-        backgroundImage: 'url(/crowBackground1.jpg)', /* Preload gothic background to match App.css and prevent FOUC */
+        backgroundImage: 'url(/crowBackground1.jpg)', 
         backgroundSize: 'cover',
         backgroundAttachment: 'fixed',
         backgroundPosition: 'center',
@@ -25,14 +25,14 @@ export default function RootLayout({ children }) {
         margin: 0,
       }}
     >
-      <head><meta charSet="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="icon" href="/favicon.ico" /><link rel="preload" href="/crowBackground1.jpg" as="image" /><link rel="preload" href="/components/Projects.css" as="style" /></head>
+      <head><meta charSet="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="icon" href="/favicon.ico" /><link rel="preload" href="/crowBackground1.jpg" as="image" fetchpriority="high" /><link rel="preload" href="/components/Projects.css" as="style" /></head>
       <body
         style={{
           margin: 0,
           padding: 0,
           minHeight: '100vh',
-          color: '#ffffff', /* Match App.css text color */
-          fontFamily: 'Arial, sans-serif', /* Match App.css font */
+          color: '#ffffff', 
+          fontFamily: 'Arial, sans-serif', 
         }}
       >
         {children}

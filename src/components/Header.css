@@ -6,6 +6,8 @@
   border-radius: 10px;
   padding: 20px;
   min-height: 150px;
+  opacity: 0; /* Ensure initial opacity for animation */
+  animation-fill-mode: forwards; /* Keep final state after animation */
 }
 
 /* FEATURE: Header Content Layout */

@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
         margin: 0,
       }}
     >
-      <head><meta charSet="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="icon" href="/favicon.ico" /><link rel="preload" href="/crowBackground1.jpg" as="image" /></head>
+      <head><meta charSet="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="icon" href="/favicon.ico" /><link rel="preload" href="/crowBackground1.jpg" as="image" /><link rel="preload" href="/components/Projects.css" as="style" /></head>
       <body
         style={{
           margin: 0,

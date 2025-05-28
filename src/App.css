@@ -1,6 +1,6 @@
 /* FEATURE: Dark Theme */
 html, body {
-  background-image: url('/crowBackground1.jpg'); /* Updated path for Next.js public folder to match original background */
+  background-image: url('/crowBackground1.jpg'); 
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -15,7 +15,7 @@ html, body {
 /* Ensure the app-background covers the full height */
 .app-background {
   min-height: 100vh;
-  background-image: url('/crowBackground1.jpg'); /* Updated path for Next.js public folder to match original background */
+  background-image: url('/crowBackground1.jpg'); 
   background-size: cover;
   background-attachment: fixed;
   background-position: center;

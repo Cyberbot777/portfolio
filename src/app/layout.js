@@ -1,23 +1,17 @@
-/* Import global CSS */
 import './globals.css';
-
-/* Metadata for SEO */
 export const metadata = {
   title: 'Portfolio',
   description: 'Portfolio of Richard Hall, Full Stack Developer',
 };
-
-/* Viewport settings */
 export const viewport = {
   themeColor: '#E6F0FA',
 };
-
 export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
       style={{
-        backgroundImage: 'url(/crowBackground1.jpg?v=1)', /* Cache-busting query */
+        backgroundImage: 'url(/crowBackground1.jpg?v=1)', 
         backgroundSize: 'cover',
         backgroundAttachment: 'fixed',
         backgroundPosition: 'center',

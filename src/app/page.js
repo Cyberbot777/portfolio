@@ -1,14 +1,9 @@
 "use client";
 
-/* Import React hooks */
 import { useState, useEffect } from 'react';
-/* Import Bootstrap components */
 import { Container } from 'react-bootstrap';
-/* Import Bootstrap CSS */
 import 'bootstrap/dist/css/bootstrap.min.css';
-/* Import custom CSS */
 import '../App.css';
-/* Import portfolio components */
 import Header from '../components/Header';
 import About from '../components/About';
 import Projects from '../components/Projects';
@@ -31,7 +26,7 @@ export default function Home() {
       style={{
         minHeight: '100vh',
         height: '100%',
-        backgroundImage: 'url(/crowBackground1.jpg?v=1)', /* Cache-busting query */
+        backgroundImage: 'url(/crowBackground1.jpg?v=1)', 
         backgroundSize: 'cover',
         backgroundAttachment: 'fixed',
         backgroundPosition: 'center',

@@ -8,7 +8,7 @@
 ## Features
 - **Header Section:** Displays my name and title as a Full Stack Developer, centered within a semi-transparent black container.
 - **About Section:** Highlights my background as a developer, veteran, nurse, developer, transitioning to tech with skills in Python, MongoDB, React, and JavaScript. Includes a centered profile picture on mobile.
-- **Projects Section:** Showcases three projects (As The Crow Flies, Student Searcher, Instagram Photo Feed Clone) with descriptions, tech stacks, and links to GitHub and live demos, styled in semi-transparent black cards with hover effects for scaling.
+- **Projects Section:** Showcases three projects (Nightingale, Student Searcher, Instagram Photo Feed Clone) with descriptions, tech stacks, and links to GitHub and live demos, styled in semi-transparent black cards with hover effects for scaling.
 - **Contact Section:** Provides links to my GitHub and LinkedIn profiles, with centered buttons on all screen sizes.
 - **Responsive Design:** Optimized with media queries and Next.js optimizations for mobile, tablet, and desktop, ensuring a seamless layout with centered content on small screens.
 - **Consistent UI:** Uses a gothic background image, semi-transparent black containers, light gray text, and cyan links for readability and aesthetic consistency, enhanced by Next.js's fast rendering.
@@ -59,4 +59,4 @@ The migration preserved all functionality and visuals, improving load performanc
 
 ## Date
 - Created: May 20, 2025
-- Last Updated: May 26, 2025
+- Last Updated: June 01, 2025

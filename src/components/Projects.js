@@ -10,29 +10,29 @@ const Projects = () => {
   const handleMouseEnter = (index) => setHoveredCard(index);
   const handleMouseLeave = () => setHoveredCard(null);
 
-  const projects = [
-    {
-      title: 'As The Crow Flies',
-      description: 'Full-stack app to calculate straight-line distances between locations, with a crow-themed dark UI, Leaflet-powered interactive map, and crow animation. Built with Flask (using geopy), React, and Bootstrap. Deployed on Vercel and Render.',
-      tech: 'Python, Flask, React, Leaflet, geopy, Bootstrap, Vercel, Render',
-      github: 'https://github.com/Cyberbot777/As-The-Crow-Flies',
-      demo: 'https://as-the-crow-flies.vercel.app/',
-    },
-    {
-      title: 'Student Searcher',
-      description: 'Full-stack app for managing student records, with features for searching, adding, editing, and filtering data. Built with a Flask backend, React frontend (using Axios), and MongoDB database. Deployed on Render and Vercel.',
-      tech: 'Python, Flask, MongoDB, React, Axios, Render, Vercel',
-      github: 'https://github.com/Cyberbot777/student-searcher',
-      demo: 'https://student-searcher.vercel.app/',
-    },
-    {
-      title: 'Instagram Photo Feed',
-      description: 'Frontend app mimicking Instagram’s photo feed, with toggleable grid/inline views, post creation/deletion, and a settings modal. Built with JavaScript for interactivity and Bootstrap for responsive design. Deployed on Vercel.',
-      tech: 'HTML, CSS, JavaScript, Bootstrap, Vercel',
-      github: 'https://github.com/Cyberbot777/instagram-photo-feed',
-      demo: 'https://instagram-photo-feed-nine.vercel.app/',
-    },
-  ];
+ const projects = [
+  {
+    title: 'Nightingale',
+    description: 'Full-stack journaling app with AI-driven feedback, featuring secure JWT authentication, a modern UI with animations, and mobile-optimized design, deployed on Vercel and Render. Demo login details available in the project README (GitHub link below).',
+    tech: 'React, FastAPI, PostgreSQL, OpenAI, Tailwind, JWT, Vercel, Render',
+    github: 'https://github.com/Cyberbot777/nightingale',
+    demo: 'https://nightingale-sigma.vercel.app/',
+  },
+  {
+    title: 'Student Searcher',
+    description: 'Full-stack app for managing student records, with features for searching, adding, editing, and filtering data. Built with a Flask backend, React frontend (using Axios), and MongoDB database. Deployed on Render and Vercel.',
+    tech: 'Python, Flask, MongoDB, React, Axios, Render, Vercel',
+    github: 'https://github.com/Cyberbot777/student-searcher',
+    demo: 'https://student-searcher.vercel.app/',
+  },
+  {
+    title: 'As The Crow Flies',
+    description: 'Full-stack app to calculate straight-line distances between locations, with a crow-themed dark UI, Leaflet-powered interactive map, and crow animation. Built with Flask (using geopy), React, and Bootstrap. Deployed on Vercel and Render.',
+    tech: 'Python, Flask, React, Leaflet, geopy, Bootstrap, Vercel, Render',
+    github: 'https://github.com/Cyberbot777/As-The-Crow-Flies',
+    demo: 'https://as-the-crow-flies.vercel.app/',
+  },
+];
 
   return (
     <Container className="my-4">

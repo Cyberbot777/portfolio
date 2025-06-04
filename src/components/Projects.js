@@ -17,7 +17,6 @@ const Projects = () => {
     tech: 'React, FastAPI, PostgreSQL, OpenAI, Tailwind, JWT, Vercel, Render',
     github: 'https://github.com/Cyberbot777/nightingale',
     demo: 'https://nightingaleapp.ai',
-',
   },
   {
     title: 'Student Searcher',

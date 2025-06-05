@@ -16,7 +16,7 @@ const Projects = () => {
     description: 'Full-stack journaling app with AI-driven feedback, featuring secure JWT authentication, a modern UI with animations, and mobile-optimized design, deployed on Vercel and Render. Demo login details available in the project README (GitHub link below).',
     tech: 'React, FastAPI, PostgreSQL, OpenAI, Tailwind, JWT, Vercel, Render',
     github: 'https://github.com/Cyberbot777/nightingale',
-    demo: 'https://nightingale-sigma.vercel.app/',
+    demo: 'https://nightingaleapp.ai',
   },
   {
     title: 'Student Searcher',

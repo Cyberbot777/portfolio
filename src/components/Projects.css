@@ -1,9 +1,16 @@
-/* FEATURE: Projects Container Styling */
+/* Projects Container Styling */
 .my-4 {
   color: #e0e0e0;
 }
 
-/* FEATURE: Project Card Styling */
+.section-title {
+  font-size: 2.5rem;
+  color: #e0e0e0;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+/* Project Card Styling */
 .project-card.card {
   background: rgba(0, 0, 0, 0.7) !important;
   color: #e0e0e0 !important;
@@ -14,21 +21,21 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 350px;
-  height: 450px;
+  min-height: 400px;
 }
 
-/* FEATURE: Project Card Hover */
+/* Project Card Hover */
 .project-card.card:hover {
   transform: scale(1.05);
 }
 
-/* FEATURE: Card Title Styling */
+/* Card Title Styling */
 .project-card .card-title {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #e0e0e0 !important;
 }
 
-/* FEATURE: Custom Button Styling */
+/* Custom Button Styling */
 .project-card .custom-btn {
   background: #1a1a1a !important;
   border: 1px solid #4a4a4a !important;
@@ -43,7 +50,7 @@
   transition: all 0.3s ease;
 }
 
-/* FEATURE: Custom Button Hover */
+/* Custom Button Hover */
 .project-card .custom-btn:hover {
   background: #4a4a4a !important;
   transform: scale(1.05);
@@ -65,10 +72,11 @@
     font-size: 0.9rem;
   }
 
-  .project-card .custom-btn {
-    font-size: 0.9rem;
-    padding: 6px 12px;
+  .project-card .custom-btn { 
+  font-size: 0.9rem;
+    padding: 0 12px;
     height: 36px;
+    line-height: 36px;
     display: inline-block;
     margin: 5px;
   }
@@ -121,3 +129,4 @@
     margin-right: 0 !important;
   }
 }
+

@@ -5,7 +5,7 @@ import './Contact.css';
 
 const Contact = () => (
   <div className="text-center my-4">
-    <h2>Contact</h2>
+    <h2 className="contact-title">Contact</h2>
     <div>
       <Button
         className="custom-btn mx-2"

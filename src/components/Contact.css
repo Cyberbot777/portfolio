@@ -3,6 +3,12 @@
   color: #e0e0e0;
 }
 
+.contact-title {
+  margin-top: -25px;
+}
+
+
+
 /* FEATURE: Custom Button Styling */
 .text-center .custom-btn {
   background: #1a1a1a !important;

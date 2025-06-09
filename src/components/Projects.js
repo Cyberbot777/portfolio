@@ -19,7 +19,7 @@ const Projects = () => {
       reset via SendGrid. Deployed on Vercel and Render.
       Demo login: demo@nightingale.ai | demo123!
     `,
-      tech: "React, FastAPI, PostgreSQL, OpenAI API, Tailwind CSS, JWT, SendGrid, Vercel, Render",
+      tech: "React,Python/FastAPI, PostgreSQL, OpenAI API, Tailwind CSS, JWT, SendGrid, Vercel, Render",
       github: "https://github.com/Cyberbot777/nightingale",
       demo: "https://nightingaleapp.ai",
     },
@@ -31,7 +31,7 @@ const Projects = () => {
       on journal entries. Delivers structured AI feedback tied to user data, with
       secure JWT authentication and feedback rate limiting.
     `,
-      tech: "FastAPI, OpenAI API, PostgreSQL, OpenAPI 3.1, JWT, REST, Render",
+      tech: "Python/FastAPI, OpenAI API, PostgreSQL, OpenAPI 3.1, JWT, REST, Render",
       github: "https://github.com/Cyberbot777/nightingale",
       demo: "https://chatgpt.com/g/g-6844bc07cb148191b8afa39dde1a1a91-nightingale-your-journal-companion",
     },

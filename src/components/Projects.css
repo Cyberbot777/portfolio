@@ -21,7 +21,14 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 350px;
-  min-height: 400px;
+  /* Removed min-height */
+}
+
+/* Clamp the description height */
+.project-card .card-text.flex-grow-1 {
+  max-height: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* Project Card Hover */
@@ -97,3 +104,14 @@
   }
 }
 
+/* Media Query for mid-sized screens (580px - 780px) */
+@media (min-width: 580px) and (max-width: 780px) {
+  .project-card.card {
+    height: 380px;
+  }
+}
+@media (min-width: 781px) {
+  .project-card.card {
+    min-height: 400px;
+  }
+}

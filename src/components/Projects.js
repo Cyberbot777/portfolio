@@ -12,35 +12,44 @@ const Projects = () => {
   const projects = [
     {
       title: "Nightingale",
-      description:
-        "Full-stack journaling app with AI-driven feedback, featuring secure JWT authentication, a modern UI with animations, and mobile-optimized design, deployed on Vercel and Render. Demo login details available in the project README (GitHub link below).",
-      tech: "React, FastAPI, PostgreSQL, OpenAI, Tailwind, JWT, Vercel, Render",
+      description: `
+      Full-stack journaling app with GPT 3.5 Turbo AI integrated feedback, JWT-secured CRUD,
+      and PostgreSQL backend. Built with React, FastAPI, and Tailwind.
+      Includes mobile optimization, dark-mode UI, and email-based password
+      reset via SendGrid. Deployed on Vercel and Render.
+      Demo login: demo@nightingale.ai | demo123!
+    `,
+      tech: "React, FastAPI, PostgreSQL, OpenAI API, Tailwind CSS, JWT, SendGrid, Vercel, Render",
       github: "https://github.com/Cyberbot777/nightingale",
       demo: "https://nightingaleapp.ai",
     },
     {
+      title: "Nightingale GPT",
+      description: `
+      Custom GPT-4 assistant fully integrated into my FastAPI backend using OpenAI’s API.
+      Connected to a PostgreSQL database with OpenAPI (3.1) for full CRUD operations
+      on journal entries. Delivers structured AI feedback tied to user data, with
+      secure JWT authentication and feedback rate limiting.
+    `,
+      tech: "FastAPI, OpenAI API, PostgreSQL, OpenAPI 3.1, JWT, REST, Render",
+      github: "https://github.com/Cyberbot777/nightingale",
+      demo: "https://chatgpt.com/g/g-6844bc07cb148191b8afa39dde1a1a91-nightingale-your-journal-companion",
+    },
+    {
       title: "Student Searcher",
       description:
-        "Full-stack app for managing student records, with features for searching, adding, editing, and filtering data. Built with a Flask backend, React frontend (using Axios), and MongoDB database. Deployed on Render and Vercel.",
-      tech: "Python, Flask, MongoDB, React, Axios, Render, Vercel",
+        "Full-stack student management app with full CRUD, dynamic search, and sortable data tables. Built with Flask and MongoDB on the backend,and a React/Axios frontend. Features include exact/partial search,grade range filters, real-time class statistics, and responsive UI.Deployed on Render and Vercel.",
+      tech: "Python, Flask, MongoDB Atlas, React, Axios, Flask-CORS, Render, Vercel",
       github: "https://github.com/Cyberbot777/student-searcher",
       demo: "https://student-searcher.vercel.app/",
     },
     {
       title: "As The Crow Flies",
       description:
-        "Full-stack app to calculate straight-line distances between locations, with a crow-themed dark UI, Leaflet-powered interactive map, and crow animation. Built with Flask (using geopy), React, and Bootstrap. Deployed on Vercel and Render.",
-      tech: "Python, Flask, React, Leaflet, geopy, Bootstrap, Vercel, Render",
+        "Full-stack geolocation app that calculates straight-line distances between places using geopy. Features a crow-themed dark UI, animated crow flight across an interactive Leaflet map, and sound effects. Built with Flask and React, and deployed on Render and Vercel.",
+      tech: "Python, Flask, React, Leaflet, geopy, Axios, Flask-CORS, Bootstrap, Vercel, Render",
       github: "https://github.com/Cyberbot777/As-The-Crow-Flies",
       demo: "https://as-the-crow-flies.vercel.app/",
-    },
-    {
-      title: "SkillForge",
-      description:
-        "Learning-focused full-stack app to track coding skills and progress, with FastAPI backend, React frontend, PostgreSQL DB, and AI flashcards.",
-      tech: "React, FastAPI, PostgreSQL, OpenAI, Tailwind, JWT",
-      github: "https://github.com/Cyberbot777/skillforge",
-      demo: "#",
     },
   ];
 

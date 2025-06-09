@@ -3,7 +3,6 @@
 import React, { useState } from "react";
 import { Card, Container, Button, Row, Col } from "react-bootstrap";
 
-
 const Projects = () => {
   const [hoveredCard, setHoveredCard] = useState(null);
 
@@ -54,8 +53,8 @@ const Projects = () => {
       </Row>
 
       <Row
-        className="justify-content-center g-1"
-        style={{ maxWidth: "960px", margin: "0 auto" }}
+        className="justify-content-center gx-4"
+        style={{ maxWidth: "1140px", margin: "0 auto" }}
       >
         {projects.map((project, index) => (
           <Col

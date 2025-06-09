@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { Card, Container, Button, Row, Col } from "react-bootstrap";
-import "./Projects.css";
+
 
 const Projects = () => {
   const [hoveredCard, setHoveredCard] = useState(null);

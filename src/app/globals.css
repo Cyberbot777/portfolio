@@ -40,3 +40,48 @@ a {
     color-scheme: dark;
   }
 }
+
+.custom-btn {
+  background: #1a1a1a !important;
+  border: 1px solid #4a4a4a !important;
+  border-radius: 20px; /* ✅ ROUNDED BUTTONS */
+  padding: 0 16px;
+  color: #e0e0e0 !important;
+  font-weight: bold;
+  height: 40px;
+  font-size: 1rem;
+  text-decoration: none !important;
+  transition: all 0.3s ease;
+
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  line-height: 1;
+}
+
+/* Optional: Global hover effect */
+.custom-btn:hover {
+  background: #4a4a4a !important;
+  transform: scale(1.05);
+  text-decoration: none !important;
+}
+
+.project-card .custom-btn {
+  background: #1a1a1a !important;
+  border: 1px solid #4a4a4a !important;
+  border-radius: 20px;
+  padding: 8px 16px;
+  color: #e0e0e0 !important;
+  font-weight: bold;
+  height: 40px;
+  line-height: 1;
+  font-size: 1rem;
+  text-decoration: none !important;
+  transition: all 0.3s ease;
+}
+
+.project-card .custom-btn:hover {
+  background: #4a4a4a !important;
+  transform: scale(1.05);
+  text-decoration: none !important;
+}

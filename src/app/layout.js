@@ -2,7 +2,7 @@ import "./globals.css";
 import "../components/Projects.css";
 
 export const metadata = {
-  title: "Portfolio",
+  title: "Cyberbot777 – AI Dev Portfolio",
   description: "Portfolio of Richard Hall, Full Stack Developer",
 };
 export const viewport = {

@@ -37,11 +37,8 @@ const Projects = () => {
     },
     {
       title: "PromptPilot",
-      description: `
-  Full-stack AI prompt testing platform with a dual-pane interface for editing system instructions and testing GPT-3.5 responses in real-time.
-  Features animated GPT output, Markdown rendering, export/import for .json/.md/.txt files, and secure API proxying through FastAPI backend.
-  Deployed with custom domain at prompt-pilot.ai.`,
-      tech: "React, TypeScript, FastAPI, PostgreSQL, OpenAI API, Tailwind CSS, Framer Motion, Render, Vercel",
+      description: `Full-stack AI prompt testing platform with a dual-pane interface for editing system instructions and testing GPT and Claude responses in real-time. Features animated output, Markdown rendering, model toggle, export/import for .json/.md/.txt files, and secure multi-model API proxying via FastAPI backend.`,
+      tech: "React, TypeScript, FastAPI, PostgreSQL, OpenAI API, Claude API, Tailwind CSS, Framer Motion, Render, Vercel",
       github: "https://github.com/Cyberbot777/prompt-pilot",
       demo: "https://prompt-pilot.ai",
     },

@@ -17,7 +17,7 @@ const Contact = () => (
       </Button>
       <Button
         className="custom-btn mx-2"
-        href="https://www.linkedin.com/in/richard-h-169b08364/"
+        href="https://linkedin.com/in/cyberbot777"
         target="_blank"
         rel="noopener noreferrer"
       >

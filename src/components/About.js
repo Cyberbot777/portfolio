@@ -9,8 +9,7 @@ const About = () => (
       <Col style={{ marginLeft: "60px", alignItems: "center" }} sm={7}>
         <h2>About Me</h2>
         <p>
-          Veteran, business owner and former ER nurse with a Bachelor of Science
-          Degree. Skilled in Python, MongoDB, React, and JavaScript.
+          Veteran, business owner, and former ER nurse turned full-stack developer. Skilled in building AI-integrated web applications with Python, React, and PostgreSQL.
         </p>
       </Col>
       <Col>

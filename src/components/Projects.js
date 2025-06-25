@@ -36,12 +36,14 @@ const Projects = () => {
       demo: "https://chatgpt.com/g/g-6844bc07cb148191b8afa39dde1a1a91-nightingale-your-journal-companion",
     },
     {
-      title: "Student Searcher",
-      description:
-        "Full-stack student management app with full CRUD, dynamic search, and sortable data tables. Built with Flask and MongoDB on the backend,and a React/Axios frontend. Features include exact/partial search,grade range filters, real-time class statistics, and responsive UI.Deployed on Render and Vercel.",
-      tech: "Python, Flask, MongoDB Atlas, React, Axios, Flask-CORS, Render, Vercel",
-      github: "https://github.com/Cyberbot777/student-searcher",
-      demo: "https://student-searcher.vercel.app/",
+      title: "PromptPilot",
+      description: `
+  Full-stack AI prompt testing platform with a dual-pane interface for editing system instructions and testing GPT-3.5 responses in real-time.
+  Features animated GPT output, Markdown rendering, export/import for .json/.md/.txt files, and secure API proxying through FastAPI backend.
+  Deployed with custom domain at prompt-pilot.ai.`,
+      tech: "React, TypeScript, FastAPI, PostgreSQL, OpenAI API, Tailwind CSS, Framer Motion, Render, Vercel",
+      github: "https://github.com/Cyberbot777/prompt-pilot",
+      demo: "https://prompt-pilot.ai",
     },
     {
       title: "As The Crow Flies",
